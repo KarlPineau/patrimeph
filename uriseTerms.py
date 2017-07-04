@@ -58,5 +58,5 @@ for concept in root.findall('.//skos:Concept', namespaces):
                 elem.attrib['{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource'] = attrib.replace("%0A%20%20%20%20%20%20%20%20%20%20%20%20", "%20")
                 error.append(attrib)
 
-tree.write('workingDirectory/skos_toImport.rdf')
+tree.write('workingDirectory/skos_urise.rdf')
 print(error)
