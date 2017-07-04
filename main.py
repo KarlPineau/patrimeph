@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
 
-tree = ET.parse('skos.rdf')
+tree = ET.parse('workingDirectory/skos.rdf')
 root = tree.getroot()
 
 namespaces = {"skos": "http://www.w3.org/2004/02/skos/core#",
@@ -19,11 +19,10 @@ for concept in root.findall('.//skos:Concept', namespaces):
     prefLabelText = ""
     for prefLabel in concept.findall('.//skos:prefLabel', namespaces):
         print(prefLabel.text)
-        prefLabelText = prefLabel.text.replace(" ", "%20").replace("'", "%27").replace("(", "%28").replace(")", "%29").replace("/", "%2F").replace(",", "%2C")
+        prefLabelText = urllib.parse.quote(prefLabel.text).replace('/', '%2F')
 
     for attrib in concept.attrib:
         concept.attrib[attrib] = 'http://my.site.com/#'+prefLabelText
     print(concept.attrib)
-#print(e)
 
-tree.write('skos.rdf')
+tree.write('workingDirectory/skos.rdf')

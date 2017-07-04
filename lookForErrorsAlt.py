@@ -8,7 +8,7 @@ from lxml import etree as ET
 import urllib.request
 import urllib.parse
 
-tree = ET.parse('skos_without_duplicates.rdf')
+tree = ET.parse('workingDirectory/skos_without_duplicates.rdf')
 root = tree.getroot()
 
 namespaces = {"skos": "http://www.w3.org/2004/02/skos/core#",
@@ -17,13 +17,6 @@ namespaces = {"skos": "http://www.w3.org/2004/02/skos/core#",
 
 arrayAlt = []
 arrayFalse = []
-
-#for preAlt in root.findall('.//skos:altLabel', namespaces):
-#    if preAlt.text in arrayAlt:
-#        arrayFalse.append(preAlt.text)
-#    else:
-#        arrayAlt.append(preAlt.text)
-
 
 for concept in root.findall('.//skos:Concept', namespaces):
     arrayAltConcept = []

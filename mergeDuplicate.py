@@ -4,12 +4,11 @@ import json
 import operator
 from collections import Counter
 import collections
-# import xml.etree.ElementTree as ET
 from lxml import etree as ET
 import urllib.request
 import urllib.parse
 
-tree = ET.parse('skos.rdf')
+tree = ET.parse('workingDirectory/skos.rdf')
 root = tree.getroot()
 
 namespaces = {"skos": "http://www.w3.org/2004/02/skos/core#",
@@ -48,4 +47,4 @@ for concept in root.findall('.//skos:Concept', namespaces):
 for toRemove in root.findall('.//skos:Concept[@toRemove="toRemove"]', namespaces):
     root.remove(toRemove)
 
-tree.write('skos_without_duplicates.rdf')
+tree.write('workingDirectory/skos_without_duplicates.rdf')

@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import urllib.parse
 
-tree = ET.parse('skos.rdf')
+tree = ET.parse('workingDirectory/skos.rdf')
 root = tree.getroot()
 
 namespaces = {"skos": "http://www.w3.org/2004/02/skos/core#",
