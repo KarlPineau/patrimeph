@@ -20,4 +20,9 @@ La procédure d'encodage est la suivante :
 - Exécuter **lookForErrorsAlt.py** : Ce fichier retourne les alt qui seraient présents en doublon dans le fichier, ce qui est interdit par Ginco. Il faut les modifier ou les supprimer.
 - Exécuter **uriseTermes.py** : Ce fichier ajoute des URI aux Concepts
 - Exécuter **settingLanguages.py** : Ce fichier ajoute un attribut "xml:lang" aux prefLabels. La langue ajoutée est l'anglais
+- Pour intégrer de nouveaux termes issues d'un fichier excel :
+    - Exporter le fichier excel au format CSV, avec pour séparateur de colonnes un ;
+    - Nommer le fichier obtenu *toAddContent.csv* et le placer dans le dossier *workingDirectory*
+    - Prendre garde à ce que la première ligne du fichier excel portant les titres des colonnes soit bien supprimée
+    - Exécuter **csvToSkos.py** : Ce fichier ajoute les termes au au fichier skos
 - Le fichier obtenu est dénommé **skos_toImport.rdf**, il ne reste plus qu'à l'importer dans Ginco

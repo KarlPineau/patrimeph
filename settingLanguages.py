@@ -17,9 +17,11 @@ namespaces = {"skos": "http://www.w3.org/2004/02/skos/core#",
 
 for concept in root.findall('.//skos:Concept', namespaces):
     for elem in list(concept.iter()):
-        if elem.tag == '{http://www.w3.org/2004/02/skos/core#}prefLabel':
-            newElem = ET.SubElement(concept, '{http://www.w3.org/2004/02/skos/core#}narrower')
+        if elem.tag == '{http://www.w3.org/2004/02/skos/core#}prefLabel' or \
+                elem.tag == '{http://www.w3.org/2004/02/skos/core#}label' or \
+                        elem.tag == '{http://www.w3.org/2004/02/skos/core#}altLabel' or \
+                        elem.tag == '{http://www.w3.org/2004/02/skos/core#}scopeNote':
             elem.attrib['{http://www.w3.org/XML/1998/namespace}lang'] = "en-UK"
             print(elem)
 
-tree.write('workingDirectory/skos_toImport.rdf')
+tree.write('workingDirectory/skos_Internationalized.rdf')
