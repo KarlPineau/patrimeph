@@ -3106,14 +3106,14 @@ For cards made later&amp;#44;
         <ns3:scopeNote xml:lang="en-UK">Cards produced primarily for advertising purposes but also as collectables.
             Printed on enamelled card, particularly in France and Belgium. Mid-19th century.
             (Hist)</ns3:scopeNote>
-        <ns3:altLabel xml:lang="en-UK">Enamelled cards</ns3:altLabel>
+        <ns3:altLabel xml:lang="en-UK">Enamelled cards (2)</ns3:altLabel>
         <ns3:broader rdf:resource="http://my.site.com/#Advertising%20cards"/>
         <ns3:related rdf:resource="http://my.site.com/#View%20cards"/>
         <ns3:STA>Approved</ns3:STA>
         <ns3:INP>2013-03-20</ns3:INP>
         <ns3:APP>2013-03-20</ns3:APP>
         <ns3:UPD>2013-10-22</ns3:UPD>
-    <ns3:altLabel xml:lang="en-UK">Enamelled cards</ns3:altLabel><ns3:prefLabel xml:lang="en-UK">Cartes porcelaine</ns3:prefLabel><ns3:USE>View cards</ns3:USE><ns3:STA>Approved</ns3:STA><ns3:INP>2013-04-05</ns3:INP><ns3:APP>2013-04-05</ns3:APP><ns3:UPD>2013-04-05</ns3:UPD></ns3:Concept>
+    <ns3:altLabel xml:lang="en-UK">Enamelled cards (2)</ns3:altLabel><ns3:prefLabel xml:lang="en-UK">Cartes porcelaine</ns3:prefLabel><ns3:USE>View cards</ns3:USE><ns3:STA>Approved</ns3:STA><ns3:INP>2013-04-05</ns3:INP><ns3:APP>2013-04-05</ns3:APP><ns3:UPD>2013-04-05</ns3:UPD></ns3:Concept>
     <ns3:Concept rdf:about="http://my.site.com/#Cartons">
         <ns3:prefLabel xml:lang="en-UK">Cartons</ns3:prefLabel>
         <ns3:scopeNote xml:lang="en-UK">Paper or cardboard containers that can be folded flat and are flange glued
@@ -7100,7 +7100,7 @@ For cards made later&amp;#44;
         <ns3:prefLabel xml:lang="en-UK">Keepsakes</ns3:prefLabel>
         <ns3:scopeNote xml:lang="en-UK">Specially printed pieces of paper, card or fabric produced as mementos
             of a visit or other occasion.</ns3:scopeNote>
-        <ns3:altLabel xml:lang="en-UK">Mementos</ns3:altLabel>
+        <ns3:altLabel xml:lang="en-UK">Mementos (2)</ns3:altLabel>
         <ns3:narrower rdf:resource="http://my.site.com/#Frost%20fair%20papers"/>
         <ns3:related rdf:resource="http://my.site.com/#Ceremonial%20addresses"/>
         <ns3:STA>Approved</ns3:STA>
@@ -9276,7 +9276,7 @@ For cards made later&amp;#44;
             immediate impression from a distance. For posters consisting of a single image for
             personal / domestic display, such as pop stars, views, photographs,
             use Decorative posters.</ns3:scopeNote>
-        <ns3:altLabel xml:lang="en-UK">Bills (Posters) - 2</ns3:altLabel>
+        <ns3:altLabel xml:lang="en-UK">Bills (Posters) (2)</ns3:altLabel>
         <ns3:narrower rdf:resource="http://my.site.com/#Book%20and%20magazine%20posters"/>
         <ns3:related rdf:resource="http://my.site.com/#Advertisements"/>
         <ns3:STA>Approved</ns3:STA>
@@ -10716,7 +10716,7 @@ For cards made later&amp;#44;
         <ns3:scopeNote xml:lang="en-UK">Objects generally associated with travel or with particular events such as
             visits to heritage sites or amusement parks; usually acquired through purchase
             rather than received as a gift.</ns3:scopeNote>
-        <ns3:altLabel xml:lang="en-UK">Mementos - 2</ns3:altLabel>
+        <ns3:altLabel xml:lang="en-UK">Mementos</ns3:altLabel>
         <ns3:narrower rdf:resource="http://my.site.com/#Election%20souvenirs"/>
         <ns3:related rdf:resource="http://my.site.com/#Cinema%20programmes"/>
         <ns3:STA>Approved</ns3:STA>
@@ -11643,7 +11643,7 @@ For cards made later&amp;#44;
         <ns3:scopeNote xml:lang="en-UK">Use for cards printed on enamelled stock with engraved and vignetted
             illustrations. Produced for tourists in the 19th century, sometimes in sets and
             usually smaller than a postcard. (Hist)</ns3:scopeNote>
-        <ns3:altLabel xml:lang="en-UK">Enamelled cards - 2</ns3:altLabel>
+        <ns3:altLabel xml:lang="en-UK">Enamelled cards</ns3:altLabel>
         <ns3:broader rdf:resource="http://my.site.com/#Cards"/>
         <ns3:related rdf:resource="http://my.site.com/#Cartes%20porcelaine"/>
         <ns3:STA>Approved</ns3:STA>
@@ -11773,7 +11773,7 @@ For cards made later&amp;#44;
         <ns3:prefLabel xml:lang="en-UK">Wanted notices (Goods)</ns3:prefLabel>
         <ns3:scopeNote xml:lang="en-UK">Posters advertising goods wanted, e.g. rags, scrap metal. For
             notices seeking employees or volunteers use Recruitment notices.</ns3:scopeNote>
-        <ns3:altLabel xml:lang="en-UK">Wanted posters - 2</ns3:altLabel>
+        <ns3:altLabel xml:lang="en-UK">Wanted posters (2)</ns3:altLabel>
         <ns3:broader rdf:resource="http://my.site.com/#Notices"/>
         <ns3:STA>Approved</ns3:STA>
         <ns3:INP>2013-07-10</ns3:INP>

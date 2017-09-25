@@ -36,6 +36,6 @@ for related in root.findall('.//skos:related', namespaces):
         if related.attrib[attrib] not in arrayNamespace:
             arrayFalse.append(" > related > "+related.attrib[attrib])
 
-print(arrayNamespace)
+# print(arrayNamespace)
 for error in arrayFalse:
     print(error)
