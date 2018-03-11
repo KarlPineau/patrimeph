@@ -22,7 +22,7 @@ for concept in root.findall('.//skos:Concept', namespaces):
         prefLabelText = urllib.parse.quote(prefLabel.text).replace('/', '%2F')
 
     for attrib in concept.attrib:
-        concept.attrib[attrib] = 'http://my.site.com/#'+prefLabelText
+        concept.attrib[attrib] = 'https://patrimeph.huma-num.fr/#'+prefLabelText
     print(concept.attrib)
 
 tree.write('workingDirectory/skos.rdf')

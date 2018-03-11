@@ -14,10 +14,13 @@ La procédure d'encodage est la suivante :
     - Copier l'intégralité des balises skos:Concept du **skos.rdf** dans le fichier **thesaurus.rdf**, entre la dernière balise *owl:ObjectProperty* et la balise *skos:ConceptScheme*
     - Supprimer le fichier **skos.rdf**
     - Renommer **thesaurus.rdf** en **skos.rdf**
+- Modifier à la main le fichier **skos.rdf** pour remplacer les URL avec un ndd fictif par le ndd du projet
+- Modifier **main.py** pour remplacer le ndd fictif par le ndd du projet
 - Exécuter **main.py** Ce fichier réécrit les URI internes au fichier 
 - Exécuter **lookForErrors.py** : Ce fichier cherche les URI orphelines dans le fichier. Il est nécessaire de résoudre ces dernières (en les supprimant ou en les modifiant) avant de continuer. 
 - Exécuter **mergeDuplicate.py** : Ce fichier supprime les doublons de concept
 - Exécuter **lookForErrorsAlt.py** : Ce fichier retourne les alt qui seraient présents en doublon dans le fichier, ce qui est interdit par Ginco. Il faut les modifier ou les supprimer.
+- Modifier **uriseTermes.py** : pour remplacer le ndd fictif par le ndd du projet
 - Exécuter **uriseTermes.py** : Ce fichier ajoute des URI aux Concepts
 - Exécuter **settingLanguages.py** : Ce fichier ajoute un attribut "xml:lang" aux prefLabels. La langue ajoutée est l'anglais
 - Pour intégrer de nouveaux termes issues d'un fichier excel :

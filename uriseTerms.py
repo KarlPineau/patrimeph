@@ -22,19 +22,19 @@ for concept in root.findall('.//skos:Concept', namespaces):
     for elem in list(concept.iter()):
         if elem.tag == '{http://www.w3.org/2004/02/skos/core#}NT':
             URILabel = urllib.parse.quote(elem.text)
-            URI = "http://my.site.com/#" + URILabel
+            URI = "https://patrimeph.huma-num.fr/#" + URILabel
             newElem = ET.SubElement(concept, '{http://www.w3.org/2004/02/skos/core#}narrower')
             newElem.attrib['{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource'] = URI
             print(URI)
         elif elem.tag == '{http://www.w3.org/2004/02/skos/core#}RT':
             URILabel = urllib.parse.quote(elem.text)
-            URI = "http://my.site.com/#" + URILabel
+            URI = "https://patrimeph.huma-num.fr/#" + URILabel
             newElem = ET.SubElement(concept, '{http://www.w3.org/2004/02/skos/core#}related')
             newElem.attrib['{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource'] = URI
             print(URI)
         elif elem.tag == '{http://www.w3.org/2004/02/skos/core#}BT':
             URILabel = urllib.parse.quote(elem.text)
-            URI = "http://my.site.com/#" + URILabel
+            URI = "https://patrimeph.huma-num.fr/#" + URILabel
             newElem = ET.SubElement(concept, '{http://www.w3.org/2004/02/skos/core#}broader')
             newElem.attrib['{http://www.w3.org/1999/02/22-rdf-syntax-ns#}resource'] = URI
             print(URI)

@@ -44,6 +44,7 @@ for concept in root.findall('.//skos:Concept', namespaces):
         else:
             URI.append(concept.attrib[attrib])
 
+print('>>>>> TO REMOVE ACTION')
 for toRemove in root.findall('.//skos:Concept[@toRemove="toRemove"]', namespaces):
     root.remove(toRemove)
 
