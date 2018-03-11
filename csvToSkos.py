@@ -112,7 +112,7 @@ with open('workingDirectory/toAddContent.csv', newline='') as csvfile:
                 notFoundInSkos.append("NEW ENGLISH TERM : " + str(count) + " > " + englishTerm)
                 # Creation of the skos:Concept element:
                 concept = ET.SubElement(root, '{http://www.w3.org/2004/02/skos/core#}Concept')
-                concept.attrib['{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about'] = "http://my.site.com/#"+urllib.parse.quote(englishTerm).replace('/', '%2F')
+                concept.attrib['{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about'] = "https://patrimeph.huma-num.fr/#"+urllib.parse.quote(englishTerm).replace('/', '%2F')
 
                 # Creation of the English term:
                 englishPrefLabel = ET.SubElement(concept, '{http://www.w3.org/2004/02/skos/core#}prefLabel')
@@ -127,7 +127,7 @@ with open('workingDirectory/toAddContent.csv', newline='') as csvfile:
                 # Creation of the skos:Concept element:
                 concept = ET.SubElement(root, '{http://www.w3.org/2004/02/skos/core#}Concept')
                 concept.attrib[
-                    '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about'] = "http://my.site.com/#fr-" + urllib.parse.quote(
+                    '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about'] = "https://patrimeph.huma-num.fr/#fr-" + urllib.parse.quote(
                     frenchTerm).replace('/', '%2F')
 
                 complete_concept(concept, row, count)
@@ -147,4 +147,4 @@ print("No TDTR :")
 for i in noTDTR:
     print(i)
 
-tree.write('workingDirectory/skos_toImport.rdf')
+tree.write('workingDirectory/skos_completed.rdf')

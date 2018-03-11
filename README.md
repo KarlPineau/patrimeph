@@ -27,5 +27,6 @@ La procédure d'encodage est la suivante :
     - Exporter le fichier excel au format CSV, avec pour séparateur de colonnes un ;
     - Nommer le fichier obtenu *toAddContent.csv* et le placer dans le dossier *workingDirectory*
     - Prendre garde à ce que la première ligne du fichier excel portant les titres des colonnes soit bien supprimée
+    - Modifier **csvToSkos.py** : Pour remplacer le ndd fictif par le ndd du projet
     - Exécuter **csvToSkos.py** : Ce fichier ajoute les termes au au fichier skos
 - Le fichier obtenu est dénommé **skos_toImport.rdf**, il ne reste plus qu'à l'importer dans Ginco
