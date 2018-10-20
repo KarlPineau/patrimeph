@@ -39,7 +39,6 @@
         <ns2:label>TermeAssocie</ns2:label>
         <ns2:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
     </ns1:ObjectProperty>
-    
     <ns3:Concept rdf:about="http://my.site.com/#ABC%20primers">
         <ns3:prefLabel>ABC primers</ns3:prefLabel>
         <ns3:scopeNote>Originally (16th century) booklets containing spelling instruction
@@ -3372,14 +3371,14 @@ For cards made later&amp;#44;
         <ns3:scopeNote>Cards produced primarily for advertising purposes but also as collectables.
             Printed on enamelled card, particularly in France and Belgium. Mid-19th century.
             (Hist)</ns3:scopeNote>
-        <ns3:altLabel>Enamelled cards</ns3:altLabel>
+        <ns3:altLabel>Enamelled cards (2)</ns3:altLabel>
         <ns3:broader rdf:resource="http://my.site.com/#Advertising%20cards"/>
         <ns3:related rdf:resource="http://my.site.com/#View%20cards"/>
         <ns3:STA>Approved</ns3:STA>
         <ns3:INP>2013-03-20</ns3:INP>
         <ns3:APP>2013-03-20</ns3:APP>
         <ns3:UPD>2013-10-22</ns3:UPD>
-    <ns3:altLabel>Enamelled cards</ns3:altLabel><ns3:prefLabel>Cartes porcelaine</ns3:prefLabel><ns3:USE>View cards</ns3:USE><ns3:STA>Approved</ns3:STA><ns3:INP>2013-04-05</ns3:INP><ns3:APP>2013-04-05</ns3:APP><ns3:UPD>2013-04-05</ns3:UPD></ns3:Concept>
+    <ns3:altLabel>Enamelled cards (2)</ns3:altLabel><ns3:prefLabel>Cartes porcelaine</ns3:prefLabel><ns3:USE>View cards</ns3:USE><ns3:STA>Approved</ns3:STA><ns3:INP>2013-04-05</ns3:INP><ns3:APP>2013-04-05</ns3:APP><ns3:UPD>2013-04-05</ns3:UPD></ns3:Concept>
     <ns3:Concept rdf:about="http://my.site.com/#Cartons">
         <ns3:prefLabel>Cartons</ns3:prefLabel>
         <ns3:scopeNote>Paper or cardboard containers that can be folded flat and are flange glued
@@ -7633,7 +7632,7 @@ For cards made later&amp;#44;
         <ns3:prefLabel>Keepsakes</ns3:prefLabel>
         <ns3:scopeNote>Specially printed pieces of paper, card or fabric produced as mementos
             of a visit or other occasion.</ns3:scopeNote>
-        <ns3:altLabel>Mementos</ns3:altLabel>
+        <ns3:altLabel>Mementos (2)</ns3:altLabel>
         <ns3:narrower rdf:resource="http://my.site.com/#Frost%20fair%20papers"/>
         <ns3:related rdf:resource="http://my.site.com/#Ceremonial%20addresses"/>
         <ns3:RT>Commemorative newspapers</ns3:RT>
@@ -10187,7 +10186,7 @@ For cards made later&amp;#44;
             immediate impression from a distance. For posters consisting of a single image for
             personal / domestic display, such as pop stars, views, photographs,
             use Decorative posters.</ns3:scopeNote>
-        <ns3:altLabel>Bills (Posters) 2</ns3:altLabel>
+        <ns3:altLabel>Bills (Posters) (2)</ns3:altLabel>
         <ns3:narrower rdf:resource="http://my.site.com/#Book%20and%20magazine%20posters"/>
         <ns3:NT>Decorative posters</ns3:NT>
         <ns3:NT>Exhibition posters</ns3:NT>
@@ -11757,7 +11756,7 @@ For cards made later&amp;#44;
         <ns3:scopeNote>Objects generally associated with travel or with particular events such as
             visits to heritage sites or amusement parks; usually acquired through purchase
             rather than received as a gift.</ns3:scopeNote>
-        <ns3:altLabel>Mementos 2</ns3:altLabel>
+        <ns3:altLabel>Mementos</ns3:altLabel>
         <ns3:narrower rdf:resource="http://my.site.com/#Election%20souvenirs"/>
         <ns3:NT>Japanese paper souvenirs</ns3:NT>
         <ns3:NT>Rose souvenirs</ns3:NT>
@@ -12786,7 +12785,7 @@ For cards made later&amp;#44;
         <ns3:scopeNote>Use for cards printed on enamelled stock with engraved and vignetted
             illustrations. Produced for tourists in the 19th century, sometimes in sets and
             usually smaller than a postcard. (Hist)</ns3:scopeNote>
-        <ns3:altLabel>Enamelled cards 2</ns3:altLabel>
+        <ns3:altLabel>Enamelled cards</ns3:altLabel>
         <ns3:broader rdf:resource="http://my.site.com/#Cards"/>
         <ns3:related rdf:resource="http://my.site.com/#Cartes%20porcelaine"/>
         <ns3:RT>Postcards</ns3:RT>
@@ -12925,7 +12924,7 @@ For cards made later&amp;#44;
         <ns3:prefLabel>Wanted notices (Goods)</ns3:prefLabel>
         <ns3:scopeNote>Posters advertising goods wanted, e.g. rags, scrap metal. For
             notices seeking employees or volunteers use Recruitment notices.</ns3:scopeNote>
-        <ns3:altLabel>Wanted posters 2</ns3:altLabel>
+        <ns3:altLabel>Wanted posters (2)</ns3:altLabel>
         <ns3:broader rdf:resource="http://my.site.com/#Notices"/>
         <ns3:STA>Approved</ns3:STA>
         <ns3:INP>2013-07-10</ns3:INP>
@@ -13235,19 +13234,19 @@ For cards made later&amp;#44;
         <ns3:INP>2007-03-28</ns3:INP>
         <ns3:UPD>2013-11-18</ns3:UPD>
     </ns3:Concept>
-    <ns3:ConceptScheme rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/5ba6edd5-27c1-42eb-bc56-ffc2e76a1ff8">
-        <dc:coverage/>
-        <dc:subject/>
+    <ns3:ConceptScheme rdf:about="http://data.culture.fr/thesaurus/resource/ark:/67717/c1c6793f-cb2c-48f2-bcd9-78368d43c1ce">
         <dc:rights>test</dc:rights>
-        <ns5:issued>Nouveau thesaurus</ns5:issued>
-        <dc:contributor/>
-        <ns5:modified>2018-10-20T16:36:25+02:00</ns5:modified>
-        <dc:source/>
+        <dc:subject/>
         <dc:publisher>Minist&#232;re charg&#233; de la culture</dc:publisher>
-        <dc:title>Test3</dc:title>
-        <dc:description/>
+        <ns5:issued>Nouveau thesaurus</ns5:issued>
+        <dc:source/>
+        <ns5:created>2017-07-04T12:24:03+02:00</ns5:created>
+        <dc:title>Test2</dc:title>
         <dc:language>fr-FR</dc:language>
-        <ns5:created>2018-10-20T16:36:25+02:00</ns5:created>
+        <dc:contributor/>
+        <dc:description/>
+        <dc:coverage/>
         <dc:relation/>
+        <ns5:modified>2017-07-04T12:24:03+02:00</ns5:modified>
     </ns3:ConceptScheme>
 </rdf:RDF>

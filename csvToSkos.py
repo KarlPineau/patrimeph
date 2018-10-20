@@ -68,9 +68,10 @@ countLog = []
 notFoundInSkos = []
 notFoundInSkosNoTerm = []
 with open('workingDirectory/toAddContent.csv', newline='') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter=';', quotechar='|')
+    spamreader = csv.reader(csvfile, delimiter=';', quotechar='"')
     # For each line of the csv file:
     for row in spamreader:
+        print(row)
         # Incrementing counter
         count += 1
         foundInSkos = False
@@ -90,7 +91,7 @@ with open('workingDirectory/toAddContent.csv', newline='') as csvfile:
         for concept in root.findall('.//skos:Concept', namespaces):
             for elem in list(concept.iter()):
                 # If we find a matching for an English term:
-                if (elem.tag == '{http://www.w3.org/2004/02/skos/core#}prefLabel') \
+                if ((elem.tag == '{http://www.w3.org/2004/02/skos/core#}prefLabel') or (elem.tag == '{http://www.w3.org/2004/02/skos/core#}altLabel')) \
                         and (elem.text == englishTerm) \
                         and (count not in countLog)\
                         and elem.get('{http://www.w3.org/XML/1998/namespace}lang') == "en-UK":
